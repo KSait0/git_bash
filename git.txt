@@ -1,0 +1,8 @@
+$ git init KSait0                                           //Создал свой репозиторий с таким же именем, как и имя пользователя в GitHub
+$ git clone git@github.com:KSait0/KSait0.git   		    //Клонировал репозиторий KSait0 на свой компьютер в отдельную папку
+$ git clone git@github.com:testrusau/testrusau.git          //Клонировал репозиторий https://github.com/testrusau/testrusau на свой компьютер в отдельную папку
+$ cd testrusau                                              //Переместился из documents в директорию testrusau 
+$ cp -r testrusau KSait0                                    //Копировал содержимое из testrusau в KSait0 
+$ git add .                                                 //Индексировал все изменённые файлы 
+$ git commit -m "Оформил README.md как портфолио"           //Создал коммит с сообщением 
+$ git push origin main                                      //Отправил изменения в удаленный репозиторий
